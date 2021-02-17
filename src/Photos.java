@@ -31,6 +31,8 @@ public class Photos extends Application {
     private final ImageView rightButton = new ImageView (new Image("http://pixsector.com/cache/d317f9c9/avefdb1ad8fbf8d8b72a2.png",100,100,true,true));
     private final ImageView leftButton = new ImageView (new Image("http://pixsector.com/cache/8ed3eed7/avb6b6c2625bcda563bf1.png", 100, 100, true, true));
     private File sample = new File("H:/Documents/All Photos/Random Photos");
+
+    
     private final ImageView leftSubButton = new ImageView (new Image("http://pixsector.com/cache/8ed3eed7/avb6b6c2625bcda563bf1.png",50,50,true,true));
     private final ImageView rightSubButton = new ImageView (new Image("http://pixsector.com/cache/d317f9c9/avefdb1ad8fbf8d8b72a2.png",50,50,true,true));
     private final BorderPane pane = new BorderPane();
